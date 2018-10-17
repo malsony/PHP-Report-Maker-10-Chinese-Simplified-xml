@@ -1,4 +1,4 @@
-# PHP Report Maker v10 简体中文语言包
+# PHP Report Maker v11 简体中文语言包
 
 ## 使用方法：
 1. 将`chinese.xml`文件复制到PHP Report Maker安装路径的`languages`目录下；
@@ -9,7 +9,7 @@
 
 ***PHP Report Maker是e.World Technology Limited.的收费软件，如需购买该软件的授权许可，请前往其官网 hkvstore.com。***
 
-# PHP Report Maker v10 Chinese Simplified xml file
+# PHP Report Maker v11 Chinese Simplified xml file
 
 ## Usage:
 1. Copy `chinese.xml` to the `languages` directory under installation path of PHP Report Maker;
