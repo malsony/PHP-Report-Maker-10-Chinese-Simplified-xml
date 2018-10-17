@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<ew-language date="2017/01/09" version="10.0.0" id="en" name="简体中文" desc="简体中文" author="Alex Lee">
+<ew-language date="2017/01/09" version="10.0.0" id="zh-cn" name="简体中文" desc="简体中文" author="Alex Lee">
 <!--
 	*** Important Notes:
 	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
