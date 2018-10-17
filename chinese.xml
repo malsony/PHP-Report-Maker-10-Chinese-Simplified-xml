@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<ew-language date="2017/01/09" version="10.0.0" id="zh-cn" name="简体中文" desc="简体中文" author="Alex Lee">
-<!--
+<ew-language date="2018/10/17" version="11.0.0" id="zh-cn" name="简体中文" desc="简体中文" author="Alex Lee">
+<!-- 
 	*** Important Notes:
 	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
 	2. Locale settings are placed in a separate locale files under the "locales" folder,
@@ -9,41 +9,41 @@
 -->
 <global>
 	<phrase id="AggregateColon" value=": "/><!-- v10 -->
-	<phrase id="AggregateEqual" value="："/><!-- v10 -->
-	<phrase id="AllRecords" value="All"/>
-	<phrase id="AlwaysAsk" value="总是询问用户名和密码"/>
-	<phrase id="AutoLogin" value="自动登入"/>
-	<phrase id="BackToLogin" value="返回到登入页"/>
+	<phrase id="AggregateEqual" value="="/><!-- v10 -->
+	<phrase id="AllRecords" value="所有"/>
+	<phrase id="AlwaysAsk" value="不保存用户名和密码"/><!-- Deprecated since v11 -->
+	<phrase id="AutoLogin" value="记住我"/><!-- Deprecated since v11 -->
+	<phrase id="BackToLogin" value="返回登入页面"/>
 	<phrase id="BooleanNo" value="No"/>
 	<phrase id="BooleanYes" value="Yes"/>
 	<phrase id="BreadcrumbDivider" value="/"/>
-	<phrase id="BrowserNoFlashSupport" value="浏览器并不支持 Flash Player。" client="1"/>
+	<phrase id="BrowserNoFlashSupport" value="您的浏览器并不支持Flash。" client="1"/>
 	<phrase id="ButtonExport" value="导出" class="icon-export ewIcon"/><!-- v8 -->
 	<phrase id="Cancel" value="取消" client="1"/><!-- v8 -->
 	<phrase id="CancelBtn" value="取消" client="1"/><!-- v10 -->
-	<phrase id="ChartOrder" value="排序条件"/>
-	<phrase id="ChartOrderXAsc" value="标签升序"/>
-	<phrase id="ChartOrderXDesc" value="标签降序"/>
-	<phrase id="ChartOrderYAsc" value="值升序"/>
-	<phrase id="ChartOrderYDesc" value="值降序"/>
-	<phrase id="ClickReCaptcha" value="请点击 reCAPTCHA" client="1"/><!-- v9 -->
-	<phrase id="ClickToDrillDown" value="钻取"/>
+	<phrase id="ChartOrder" value="排序"/>
+	<phrase id="ChartOrderXAsc" value="Labels Ascending"/>
+	<phrase id="ChartOrderXDesc" value="Labels Descending"/>
+	<phrase id="ChartOrderYAsc" value="Values Ascending"/>
+	<phrase id="ChartOrderYDesc" value="Values Descending"/>
+	<phrase id="ClickReCaptcha" value="Please click reCAPTCHA" client="1"/><!-- v9 -->
+	<phrase id="ClickToDrillDown" value="Click to drill down"/>
 	<phrase id="CloseBtn" value="关闭" client="1"/><!-- v10 -->
 	<phrase id="CopyToClipboard" value="复制到剪贴板"/><!-- v10 -->
 	<phrase id="CountSelected" value="已选定 %s" client="1"/><!-- v9 -->
-	<phrase id="CtbSumHead" value="摘要"/><!-- v10 -->
+	<phrase id="CtbSumHead" value="Summary"/><!-- v10 -->
 	<phrase id="CurrentFilters" value="当前筛选条件："/>
 	<phrase id="DeleteFilter" value="删除筛选条件"/><!-- v8 -->
-	<phrase id="DeleteFilterConfirm" value="确认删除 %s 吗？" client="1"/><!-- v8 -->
+	<phrase id="DeleteFilterConfirm" value="确认删除筛选条件 %s 吗？" client="1"/><!-- v8 -->
 	<phrase id="DrillDownAllRecords" value="所有记录"/>
-	<phrase id="DrillDownFilters" value="钻取筛选条件："/>
-	<phrase id="EnterFilterName" value="输入筛选条件名称" client="1"/><!-- v8 -->
-	<phrase id="EnterSenderEmail" value="请输入发送人电邮地址" client="1"/>
-	<phrase id="EnterProperSenderEmail" value="超过发件人数限制或电邮地址错误" client="1"/>
+	<phrase id="DrillDownFilters" value="钻取条件："/>
+	<phrase id="EnterFilterName" value="请输入筛选条件名称" client="1"/><!-- v8 -->
+	<phrase id="EnterSenderEmail" value="请输入发件人电邮地址" client="1"/>
+	<phrase id="EnterProperSenderEmail" value="发件人电邮数量超出限制或电邮地址不正确" client="1"/>
 	<phrase id="EnterRecipientEmail" value="请输入收件人电邮地址" client="1"/>
-	<phrase id="EnterProperRecipientEmail" value="超过收件人数限制或电邮地址错误" client="1"/>
-	<phrase id="EnterProperCcEmail" value="超过抄送人数限制或电邮地址错误" client="1"/>
-	<phrase id="EnterProperBccEmail" value="超过密送人数限制或电邮地址错误" client="1"/>
+	<phrase id="EnterProperRecipientEmail" value="收件人数量超出限制或电邮地址不正确" client="1"/>
+	<phrase id="EnterProperCcEmail" value="抄送人数量超出限制或电子邮件地址不正确" client="1"/>
+	<phrase id="EnterProperBccEmail" value="密送人数量超出限制或电子邮件地址不正确" client="1"/>
 	<phrase id="EnterSubject" value="请输入主题" client="1"/>
 	<phrase id="EmailFormSender" value="发件人"/>
 	<phrase id="EmailFormRecipient" value="收件人"/>
@@ -54,38 +54,40 @@
 	<phrase id="EmailFormContentType" value="电邮格式"/>
 	<phrase id="EmailFormContentTypeUrl" value="链接"/>
 	<phrase id="EmailFormContentTypeHtml" value="网页"/>
-	<phrase id="EmptyLabel" value="(空)"/>
+	<phrase id="EmptyLabel" value="(Empty)"/>
 	<phrase id="EnterPassword" value="请输入密码" client="1"/>
 	<phrase id="EnterPwd" value="请输入密码" client="1"/>
-	<phrase id="EnterSearchCriteria" value="请输入查询规则"/>
+	<phrase id="EnterSearchCriteria" value="请输入搜索条件"/>
 	<phrase id="EnterUid" value="请输入用户ID" client="1"/>
 	<phrase id="EnterValidateCode" value="请输入验证码" client="1"/>
-	<phrase id="ExceedMaxEmailExport" value="导出电邮地址数量超出限制，请稍后再试。"/>
-	<phrase id="ExportChart" value="正在导出图表：" client="1"/>
+	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later."/>
+	<phrase id="ExportChart" value="导出图表：" client="1"/>
 	<phrase id="ExportChartData" value="正在导出图表数据" client="1"/>
 	<phrase id="ExportChartError" value="无法导出图表：" client="1"/>
-	<phrase id="ExportingChart" value="正在导出图表 (%t 个中的 %c 个)，请稍候……" client="1"/>
-	<phrase id="ExportToEmail" value="通过电邮导出" class="icon-email ewIcon" client="1"/><!-- v8 -->
+	<phrase id="Exporting" value="正在导出，请稍候。" client="1"/><!-- v11 -->
+	<phrase id="ExportingChart" value="正在导出图表（%t中的%c），请稍候。" client="1"/>
+	<phrase id="ExportToEmail" value="电邮" class="icon-email ewIcon" client="1"/><!-- v8 -->
 	<phrase id="ExportToExcel" value="导出Excel文档" class="icon-excel ewIcon"/><!-- v8 -->
 	<phrase id="ExportToPDF" value="导出PDF文档" class="icon-pdf ewIcon"/><!-- v8 -->
 	<phrase id="ExportToWord" value="导出Word文档" class="icon-word ewIcon"/><!-- v8 -->
+	<phrase id="FailedToExport" value="无法导出" client="1"/><!-- v11 -->
 	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
-	<phrase id="Filter" value="筛选条件"/><!-- v8 -->
+	<phrase id="Filter" value="筛选条件Filter"/><!-- v8 -->
 	<phrase id="FilterName" value="筛选条件名称" client="1"/><!-- v8 -->
 	<phrase id="Filters" value="筛选条件" class="icon-filter ewIcon"/><!-- v8 -->
 	<phrase id="Generate" value="生成" client="1"/><!-- v10 -->
-	<phrase id="GenerateReportUrl" value="生成报表URL" client="1"/><!-- v10 -->
+	<phrase id="GenerateReportUrl" value="生成报告URL" client="1"/><!-- v10 -->
 	<phrase id="GenerateSuccess" value="成功"/><!-- v10 -->
 	<phrase id="HomePage" value="首页" class="glyphicon glyphicon-home ewIcon"/><!-- v8 -->
 	<phrase id="IncorrectCreditCard" value="错误的信用卡号" client="1"/>
-	<phrase id="IncorrectDate" value="I错误的日期 (%s)"/><!-- v10 -->
-	<phrase id="IncorrectDateYMD" value="错误的日期格式，应为yyyy%smm%sdd"/>
-	<phrase id="IncorrectDateMDY" value="错误的日期格式，应为mm%sdd%syyyy"/>
-	<phrase id="IncorrectDateDMY" value="错误的日期格式，应为dd%smm%syyyy"/>
-	<phrase id="IncorrectShortDateYMD" value="错误的日期格式，应为yy%smm%sdd"/>
-	<phrase id="IncorrectShortDateMDY" value="错误的日期格式，应为mm%sdd%syy"/>
-	<phrase id="IncorrectShortDateDMY" value="错误的日期格式，应为dd%smm%syy"/>
-	<phrase id="IncorrectEmail" value="错误的电邮" client="1"/>
+	<phrase id="IncorrectDate" value="错误的日期 (%s)"/><!-- v10 -->
+	<phrase id="IncorrectDateYMD" value="错误的日期格式，应为 yyyy%smm%sdd"/>
+	<phrase id="IncorrectDateMDY" value="错误的日期格式，应为 mm%sdd%syyyy"/>
+	<phrase id="IncorrectDateDMY" value="错误的日期格式，应为 dd%smm%syyyy"/>
+	<phrase id="IncorrectShortDateYMD" value="错误的日期格式，应为 yy%smm%sdd"/>
+	<phrase id="IncorrectShortDateMDY" value="错误的日期格式，应为 mm%sdd%syy"/>
+	<phrase id="IncorrectShortDateDMY" value="错误的日期格式，应为 dd%smm%syy"/>
+	<phrase id="IncorrectEmail" value="错误的电邮地址" client="1"/>
 	<phrase id="IncorrectField" value="错误的字段" client="1"/>
 	<phrase id="IncorrectFloat" value="错误的浮点数字" client="1"/>
 	<phrase id="IncorrectGUID" value="错误的GUID" client="1"/>
@@ -99,10 +101,14 @@
 	<phrase id="InvalidPostRequest" value="无效的提交请求"/><!-- v8 -->
 	<phrase id="InvalidUidPwd" value="不正确的用户名或密码"/>
 	<phrase id="Language" value="语言"/>
-	<phrase id="Loading" value="正在载入 %s……" client="1"/>
+	<phrase id="Loading" value="正在载入%s..." client="1"/>
 	<phrase id="Login" value="登入"/>
+	<phrase id="LoginFacebook" value="Facebook ID 登入"/><!-- v11 -->
+	<phrase id="LoginFailed" value="无法以 %p 登入"/><!-- v11 -->
+	<phrase id="LoginGoogle" value="Google ID 登入"/><!-- v11 -->
 	<phrase id="LoginOptions" value="选项"/><!-- v8 -->
-	<phrase id="LoginPage" value="登入"/>
+	<phrase id="LoginOr" value="- 或 -"/><!-- v11 -->
+	<phrase id="LoginPage" value="登入页面"/>
 	<phrase id="Logout" value="登出"/>
 	<phrase id="LookupLink" value="查找 - %s" class="glyphicon glyphicon-search ewIcon"/><!-- v10 -->
 	<phrase id="MessageOK" value="确定" client="1"/><!-- v9 -->
@@ -120,87 +126,89 @@
 	<phrase id="MonthOct" value="十月"/>
 	<phrase id="MonthNov" value="十一月"/>
 	<phrase id="MonthDec" value="十二月"/>
-	<phrase id="Next" value="下一个"/>
+	<phrase id="More" value="More" client="1"/><!-- v11 --><!-- todo -->
+	<phrase id="Next" value="Next"/>
 	<phrase id="Noon" value="中午"/><!-- v10 -->
 	<phrase id="NoPermission" value="您没有权限读取本页。"/>
-	<phrase id="NoRecord" value="没有记录返回d" client="1"/><!-- v10 -->
-	<phrase id="NoReportOrCharts" value="没有选定报表或图表生成，请检查报表/图表设置。"/>
-	<phrase id="NoDistinctColVals" value="No distinct column values for SQL: "/>
-	<phrase id="NullLabel" value="(空)"/>
-	<phrase id="Of" value="of" client="1"/><!-- v10 -->
-	<phrase id="Page" value="Page" client="1"/><!-- v10 -->
+	<phrase id="NoRecord" value="没有记录返回" client="1"/><!-- v10 -->
+	<phrase id="NoReportOrCharts" value="没有选定的报告或图表待生成。请检查报告/图表设置。"/>
+	<phrase id="NoDistinctColVals" value="No distinct column values for SQL: "/><!-- todo -->
+	<phrase id="NullLabel" value="(Null)"/>
+	<phrase id="Of" value="of" client="1"/><!-- v10 --><!-- todo -->
+	<phrase id="Page" value="页码" client="1"/><!-- v10 -->
 	<phrase id="PagerFirst" value="第一页"/>
-	<phrase id="PagerLast" value="最后页"/>
+	<phrase id="PagerLast" value="最后一页"/>
 	<phrase id="PagerNext" value="下一页"/>
-	<phrase id="PagerPrevious" value="上一页"/>
+	<phrase id="PagerPrevious" value="前一页"/>
 	<phrase id="Password" value="密码"/>
 	<phrase id="PleaseSelect" value="请选择" client="1"/><!-- v9 -->
-	<phrase id="PopupAll" value="(所有)" client="1"/>
-	<phrase id="PopupFrom" value="From" client="1"/>
-	<phrase id="PopupNoValue" value="未选定任何值！" client="1"/>
+	<phrase id="PopupAll" value="(All)" client="1"/><!-- todo -->
+	<phrase id="PopupFrom" value="From" client="1"/><!-- todo -->
+	<phrase id="PopupNoValue" value="No value selected!" client="1"/><!-- todo -->
 	<phrase id="PopupSelect" value="请选择" client="1"/>
-	<phrase id="PopupTo" value="To" client="1"/>
-	<phrase id="Prev" value="Prev"/>
-	<phrase id="PrimaryKeyUnspecified" value="主键未指定"/>
+	<phrase id="PopupTo" value="To" client="1"/><!-- todo -->
+	<phrase id="Prev" value="上一个"/>
+	<phrase id="PrimaryKeyUnspecified" value="未指定主键"/>
 	<phrase id="PrinterFriendly" value="打印机友好页面" class="icon-print ewIcon"/><!-- v8 -->
-	<phrase id="Group" value="组"/>
-	<phrase id="GroupsPerPage" value="Groups per page"/>
+	<phrase id="Group" value="Groups"/><!-- todo -->
+	<phrase id="GroupsPerPage" value="Groups per page"/><!-- todo -->
 	<phrase id="Qtr1" value="第一季度"/>
 	<phrase id="Qtr2" value="第二季度"/>
 	<phrase id="Qtr3" value="第三季度"/>
 	<phrase id="Qtr4" value="第四季度"/>
-	<phrase id="Record" value="记录" client="1"/><!-- v10 -->
+	<phrase id="Record" value="Records" client="1"/><!-- v10 -->
 	<phrase id="RecordsPerPage" value="Page size" client="1"/><!-- v10 -->
-	<phrase id="Report" value="报表"/>
-	<phrase id="ReportFormType" value="报表形式"/><!-- v10 -->
+	<phrase id="RememberMe" value="记住我"/>
+	<phrase id="Report" value="Reports"/>
+	<phrase id="ReportFormType" value="Report type"/><!-- v10 -->
 	<phrase id="ReportFormPrint" value="Print"/><!-- v10 -->
 	<phrase id="ReportFormWord" value="Word"/><!-- v10 -->
 	<phrase id="ReportFormExcel" value="Excel"/><!-- v10 -->
 	<phrase id="ReportFormPdf" value="PDF"/><!-- v10 -->
-	<phrase id="ReportFormEmail" value="Email"/><!-- v10 -->
-	<phrase id="ReportFormUserName" value="User name"/><!-- v10 -->
+	<phrase id="ReportFormEmail" value="电邮"/><!-- v10 -->
+	<phrase id="ReportFormUserName" value="用户名"/><!-- v10 -->
 	<phrase id="ReportFormUserDefault" value="Administrator"/><!-- v10 -->
-	<phrase id="ReportFormFilterName" value="Filter name"/><!-- v10 -->
+	<phrase id="ReportFormFilterName" value="筛选条件名称"/><!-- v10 -->
 	<phrase id="ReportFormFilterNone" value="None"/><!-- v10 -->
 	<phrase id="ReportFormFilterCurrent" value="Current"/><!-- v10 -->
 	<phrase id="ReportFormPageOption" value="Pages"/><!-- v10 -->
 	<phrase id="ReportFormAllPages" value="All"/><!-- v10 -->
 	<phrase id="ReportFormFirstPage" value="First"/><!-- v10 -->
-	<phrase id="ReportFormSender" value="From"/><!-- v10 -->
-	<phrase id="ReportFormRecipient" value="To"/><!-- v10 -->
-	<phrase id="ReportFormCc" value="Cc"/><!-- v10 -->
-	<phrase id="ReportFormBcc" value="Bcc"/><!-- v10 -->
-	<phrase id="ReportFormSubject" value="Subject"/><!-- v10 -->
+	<phrase id="ReportFormSender" value="发件人"/><!-- v10 -->
+	<phrase id="ReportFormRecipient" value="收件人"/><!-- v10 -->
+	<phrase id="ReportFormCc" value="抄送人"/><!-- v10 -->
+	<phrase id="ReportFormBcc" value="密送人"/><!-- v10 -->
+	<phrase id="ReportFormSubject" value="主题"/><!-- v10 -->
 	<phrase id="ReportFormResponseType" value="Response type"/><!-- v10 -->
 	<phrase id="ReportFormResponseTypeJson" value="JSON"/><!-- v10 -->
 	<phrase id="ReportFormResponseTypeFile" value="File"/><!-- v10 -->
-	<phrase id="ReportFormShowCurrentFilter" value="Show filters"/><!-- v10 -->
+	<phrase id="ReportFormShowCurrentFilter" value="显示筛选条件"/><!-- v10 -->
 	<phrase id="ReportFormUrl" value="URL"/><!-- v10 -->
-	<phrase id="ReportGeneratedDate" value="Report generated at "/><!-- v10 -->
+	<phrase id="ReportGeneratedDate" value="报告生成日期："/><!-- v10 -->
 	<phrase id="Reset" value="重置"/>
 	<phrase id="ResetAllFilter" value="重置所有筛选条件" class="icon-reset-search ewIcon"/><!-- v8 -->
 	<phrase id="ResetSearch" value="重置"/>
 	<phrase id="RptAvg" value="平均"/>
-	<phrase id="RptCnt" value="计数"/>
+	<phrase id="RptCnt" value="COUNT"/>
 	<phrase id="RptDtlRec" value=" detail records"/>
 	<phrase id="RptGrandSummary" value="Grand Summary"/>
-	<phrase id="RptMax" value="MAX"/>
-	<phrase id="RptMin" value="MIN"/>
+	<phrase id="RptMax" value="最大"/>
+	<phrase id="RptMin" value="最小"/>
 	<phrase id="RptPageSummary" value="Page Summary"/>
-	<phrase id="RptSum" value="总计"/>
-	<phrase id="RptSumHead" value="Summary for %c: %v"/><!-- v9 -->
+	<phrase id="RptSum" value="合计"/>
+	<phrase id="RptSumHead" value=" %c 摘要： %v"/><!-- v9 -->
 	<phrase id="SaveCurrentFilter" value="保存当前筛选条件"/>
-	<phrase id="SaveUserName" value="记住用户名"/>
+	<phrase id="SaveUserName" value="记住用户名"/><!-- Deprecated since v11 -->
 	<phrase id="Search" value="搜索" client="1"/><!-- v10 -->
-	<phrase id="SearchBtn" value="搜索" class="glyphicon glyphicon-search ewIcon"/>
+	<phrase id="SearchBtn" value="筛选条件面板" class="glyphicon glyphicon-search ewIcon"/>
 	<phrase id="SelectAll" value="(All)"/>
 	<phrase id="SelectBtn" value="选择" client="1"/><!-- v10 -->
 	<phrase id="SendEmailBtn" value="发送" client="1"/>
 	<phrase id="SendEmailSuccess" value="电邮成功发送" client="1"/>
-	<phrase id="ServerCommunicationError" value="与服务器通讯时发生错误。"/><!-- v10 -->
-	<phrase id="SessionWillExpire" value="本次会话将于 %s秒后终止，请点击“确定”以继续本次会话。" client="1"/><!-- v9 -->
-	<phrase id="SessionExpired" value="本次会话已终止。" client="1"/><!-- v9 -->
-	<phrase id="ShowAll" value="Show all"/>
+	<phrase id="ServerCommunicationError" value="与服务器的通讯出现错误"/><!-- v10 -->
+	<phrase id="SessionWillExpire" value="会话将在 %s 秒内终止。如果希望继续本次会话，请点击“确定”。" client="1"/><!-- v9 -->
+	<phrase id="SessionExpired" value="本次会已终止" client="1"/><!-- v9 -->
+	<phrase id="ShowAll" value="显示所有记录"/>
 	<phrase id="Summary" value="Summary"/>
 	<phrase id="SummaryColon" value=": "/><!-- v10 -->
 	<phrase id="Tasks" value="Tasks"/>
@@ -211,8 +219,9 @@
 	<phrase id="UserAnonymous" value="Anonymous" client="1"/><!-- v9 -->
 	<phrase id="UserDefault" value="Default" client="1"/><!-- v9 -->
 	<phrase id="UserName" value="用户名"/>
+	<phrase id="UserNotFound" value="无法找到用户 '%u'"/><!-- v11 -->
 	<phrase id="ValueNotExist" value="值不存在" client="1"/><!-- v8 -->
-	<phrase id="ViewImage" value="点击查看图片"/><!-- v8 -->
+	<phrase id="ViewImage" value="点击查看图像"/><!-- v8 -->
 	<phrase id="Week" value="周"/>
 	<phrase id="Year" value="年"/>
 <!-- Search Operators -->
@@ -225,11 +234,11 @@
 	<phrase id="&gt;=" value="&amp;gt;="/>
 	<phrase id="LIKE" value="包含"/>
 	<phrase id="NOT LIKE" value="不包含"/>
-	<phrase id="STARTS WITH" value="开头字符"/>
-	<phrase id="ENDS WITH" value="结尾字符h"/>
+	<phrase id="STARTS WITH" value="开头为"/>
+	<phrase id="ENDS WITH" value="结尾为"/>
 	<phrase id="IS NULL" value="为空"/>
 	<phrase id="IS NOT NULL" value="非空"/>
-	<phrase id="BETWEEN" value="区间"/>
+	<phrase id="BETWEEN" value="between"/>
 	<phrase id="AND" value="和"/>
 	<phrase id="OR" value="或"/>
 	<phrase id="AM" value="上午"/><!-- v10 -->
@@ -246,21 +255,21 @@
 <!-- Advanced Filter -->
 	<phrase id="Future" value="未来"/>
 	<phrase id="Past" value="过去"/>
-	<phrase id="Last14Days" value="前14天"/>
-	<phrase id="Last30Days" value="前30天"/>
-	<phrase id="Last7Days" value="前7天"/>
-	<phrase id="Next14Days" value="后14天"/>
-	<phrase id="Next30Days" value="后30天"/>
-	<phrase id="Next7Days" value="后7天"/>
+	<phrase id="Last14Days" value="前 14 天"/>
+	<phrase id="Last30Days" value="前 30 天"/>
+	<phrase id="Last7Days" value="前 7 天"/>
+	<phrase id="Next14Days" value="未来 14 天"/>
+	<phrase id="Next30Days" value="未来 30 天"/>
+	<phrase id="Next7Days" value="未来 7 天"/>
 	<phrase id="Today" value="今天"/>
 	<phrase id="Tomorrow" value="明天"/>
 	<phrase id="Yesterday" value="昨天"/>
 	<phrase id="LastMonth" value="上月"/>
 	<phrase id="NextMonth" value="下月"/>
 	<phrase id="ThisMonth" value="本月"/>
-	<phrase id="LastTwoWeeks" value="前两周"/>
+	<phrase id="LastTwoWeeks" value="过去两周"/>
 	<phrase id="LastWeek" value="上周"/>
-	<phrase id="NextTwoWeeks" value="下两周"/>
+	<phrase id="NextTwoWeeks" value="未来两周"/>
 	<phrase id="NextWeek" value="下周"/>
 	<phrase id="ThisWeek" value="本周"/>
 	<phrase id="LastYear" value="去年"/>
