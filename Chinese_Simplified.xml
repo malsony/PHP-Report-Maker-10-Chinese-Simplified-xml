@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<ew-language date="2018/10/17" version="11.0.0" id="zh-cn" name="简体中文" desc="简体中文" author="Alex Lee">
+<ew-language date="2018/12/19" version="12.0.1" id="zh-cn" name="简体中文" desc="简体中文" author="Alex Lee">
 <!-- 
 	*** Important Notes:
 	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
@@ -8,6 +8,7 @@
 	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
 -->
 <global>
+	<phrase id="Accept" value="同意"/><!-- v12 -->
 	<phrase id="AggregateColon" value=": "/><!-- v10 -->
 	<phrase id="AggregateEqual" value="="/><!-- v10 -->
 	<phrase id="AllRecords" value="所有"/>
@@ -18,7 +19,7 @@
 	<phrase id="BooleanYes" value="Yes"/>
 	<phrase id="BreadcrumbDivider" value="/"/>
 	<phrase id="BrowserNoFlashSupport" value="您的浏览器并不支持Flash。" client="1"/>
-	<phrase id="ButtonExport" value="导出" class="icon-export ewIcon"/><!-- v8 -->
+	<phrase id="ButtonExport" value="导出" class="icon-export ew-icon"/><!-- v8 -->
 	<phrase id="Cancel" value="取消" client="1"/><!-- v8 -->
 	<phrase id="CancelBtn" value="取消" client="1"/><!-- v10 -->
 	<phrase id="ChartOrder" value="排序"/>
@@ -28,13 +29,17 @@
 	<phrase id="ChartOrderYDesc" value="Values Descending"/>
 	<phrase id="ClickReCaptcha" value="Please click reCAPTCHA" client="1"/><!-- v9 -->
 	<phrase id="ClickToDrillDown" value="Click to drill down"/>
+	<phrase id="CloseAccountBtn" value="删除数据并关闭我的账号"/><!-- v12 -->
 	<phrase id="CloseBtn" value="关闭" client="1"/><!-- v10 -->
+	<phrase id="CookieConsentSummary" value="在这里制定本站的私隐和Cookie使用政策。"/><!-- v12 -->
 	<phrase id="CopyToClipboard" value="复制到剪贴板"/><!-- v10 -->
 	<phrase id="CountSelected" value="已选定 %s" client="1"/><!-- v9 -->
 	<phrase id="CtbSumHead" value="Summary"/><!-- v10 -->
 	<phrase id="CurrentFilters" value="当前筛选条件："/>
+	<phrase id="DeleteBtn" value="删除"/><!-- v12 -->
 	<phrase id="DeleteFilter" value="删除筛选条件"/><!-- v8 -->
 	<phrase id="DeleteFilterConfirm" value="确认删除筛选条件 %s 吗？" client="1"/><!-- v8 -->
+	<phrase id="DownloadBtn" value="下载"/><!-- v12 -->
 	<phrase id="DrillDownAllRecords" value="所有记录"/>
 	<phrase id="DrillDownFilters" value="钻取条件："/>
 	<phrase id="EnterFilterName" value="请输入筛选条件名称" client="1"/><!-- v8 -->
@@ -60,25 +65,25 @@
 	<phrase id="EnterSearchCriteria" value="请输入搜索条件"/>
 	<phrase id="EnterUid" value="请输入用户ID" client="1"/>
 	<phrase id="EnterValidateCode" value="请输入验证码" client="1"/>
-	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later."/>
+	<phrase id="ExceedMaxEmailExport" value="超出电邮导出次数限制，请稍后再试。"/>
 	<phrase id="ExportChart" value="导出图表：" client="1"/>
 	<phrase id="ExportChartData" value="正在导出图表数据" client="1"/>
 	<phrase id="ExportChartError" value="无法导出图表：" client="1"/>
 	<phrase id="Exporting" value="正在导出，请稍候。" client="1"/><!-- v11 -->
 	<phrase id="ExportingChart" value="正在导出图表（%t中的%c），请稍候。" client="1"/>
-	<phrase id="ExportToEmail" value="电邮" class="icon-email ewIcon" client="1"/><!-- v8 -->
-	<phrase id="ExportToExcel" value="导出Excel文档" class="icon-excel ewIcon"/><!-- v8 -->
-	<phrase id="ExportToPDF" value="导出PDF文档" class="icon-pdf ewIcon"/><!-- v8 -->
-	<phrase id="ExportToWord" value="导出Word文档" class="icon-word ewIcon"/><!-- v8 -->
+	<phrase id="ExportToEmail" value="电邮" class="icon-email ew-icon" client="1"/><!-- v8 -->
+	<phrase id="ExportToExcel" value="导出Excel文档" class="icon-excel ew-icon"/><!-- v8 -->
+	<phrase id="ExportToPDF" value="导出PDF文档" class="icon-pdf ew-icon"/><!-- v8 -->
+	<phrase id="ExportToWord" value="导出Word文档" class="icon-word ew-icon"/><!-- v8 -->
 	<phrase id="FailedToExport" value="无法导出" client="1"/><!-- v11 -->
-	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
-	<phrase id="Filter" value="筛选条件Filter"/><!-- v8 -->
+	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ew-required&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+	<phrase id="Filter" value="筛选条件"/><!-- v8 -->
 	<phrase id="FilterName" value="筛选条件名称" client="1"/><!-- v8 -->
-	<phrase id="Filters" value="筛选条件" class="icon-filter ewIcon"/><!-- v8 -->
+	<phrase id="Filters" value="筛选条件" class="icon-filter ew-icon"/><!-- v8 -->
 	<phrase id="Generate" value="生成" client="1"/><!-- v10 -->
 	<phrase id="GenerateReportUrl" value="生成报告URL" client="1"/><!-- v10 -->
 	<phrase id="GenerateSuccess" value="成功"/><!-- v10 -->
-	<phrase id="HomePage" value="首页" class="glyphicon glyphicon-home ewIcon"/><!-- v8 -->
+	<phrase id="HomePage" value="首页" class="fa fa-home ew-icon"/><!-- v12 -->
 	<phrase id="IncorrectCreditCard" value="错误的信用卡号" client="1"/>
 	<phrase id="IncorrectDate" value="错误的日期 (%s)"/><!-- v10 -->
 	<phrase id="IncorrectDateYMD" value="错误的日期格式，应为 yyyy%smm%sdd"/>
@@ -95,22 +100,25 @@
 	<phrase id="IncorrectPhone" value="错误的电话号码" client="1"/>
 	<phrase id="IncorrectRange" value="数字必须介于 %1 和 %2" client="1"/>
 	<phrase id="IncorrectRegExp" value="正则表达式不匹配" client="1"/>
+	<phrase id="IncorrectReportParameters" value="错误的报表参数"/><!-- v12 -->
 	<phrase id="IncorrectSSN" value="错误的社会保险号" client="1"/>
 	<phrase id="IncorrectTime" value="错误的时间格式(hh:mm:ss)" client="1"/>
 	<phrase id="IncorrectZip" value="错误的邮编" client="1"/>
 	<phrase id="InvalidPostRequest" value="无效的提交请求"/><!-- v8 -->
 	<phrase id="InvalidUidPwd" value="不正确的用户名或密码"/>
 	<phrase id="Language" value="语言"/>
+	<phrase id="LearnMore" value="了解更多"/><!-- v12 -->
 	<phrase id="Loading" value="正在载入%s..." client="1"/>
 	<phrase id="Login" value="登入"/>
 	<phrase id="LoginFacebook" value="Facebook ID 登入"/><!-- v11 -->
 	<phrase id="LoginFailed" value="无法以 %p 登入"/><!-- v11 -->
 	<phrase id="LoginGoogle" value="Google ID 登入"/><!-- v11 -->
+	<phrase id="LoginMsg" value="请登入"/><!-- v12 -->
 	<phrase id="LoginOptions" value="选项"/><!-- v8 -->
 	<phrase id="LoginOr" value="- 或 -"/><!-- v11 -->
 	<phrase id="LoginPage" value="登入页面"/>
 	<phrase id="Logout" value="登出"/>
-	<phrase id="LookupLink" value="查找 - %s" class="glyphicon glyphicon-search ewIcon"/><!-- v10 -->
+	<phrase id="LookupLink" value="查找 - %s" class="fa fa-search ew-icon"/><!-- v12 -->
 	<phrase id="MessageOK" value="确定" client="1"/><!-- v9 -->
 	<phrase id="Midnight" value="午夜"/><!-- v10 -->
 	<phrase id="MobileMenu" value="菜单"/>
@@ -141,6 +149,12 @@
 	<phrase id="PagerNext" value="下一页"/>
 	<phrase id="PagerPrevious" value="前一页"/>
 	<phrase id="Password" value="密码"/>
+	<phrase id="PersonalDataBtn" value="个人数据"/><!-- v12 -->
+	<phrase id="PersonalDataContent" value="您的账户包含了提供给本站的数据。您可以在本页面下载或删除这些数据。"/><!-- v12 -->
+	<phrase id="PersonalDataDeleteFailure" value="删除用户过程中遇到未知错误"/><!-- v12 -->
+	<phrase id="PersonalDataDeleteSuccess" value="成功删除个人数据！"/><!-- v12 -->
+	<phrase id="PersonalDataTitle" value="个人数据"/><!-- v12 -->
+	<phrase id="PersonalDataWarning" value="删除这些数据将永久清除您的账户，并且将无法复原。"/><!-- v12 -->
 	<phrase id="PleaseSelect" value="请选择" client="1"/><!-- v9 -->
 	<phrase id="PopupAll" value="(All)" client="1"/><!-- todo -->
 	<phrase id="PopupFrom" value="From" client="1"/><!-- todo -->
@@ -149,7 +163,9 @@
 	<phrase id="PopupTo" value="To" client="1"/><!-- todo -->
 	<phrase id="Prev" value="上一个"/>
 	<phrase id="PrimaryKeyUnspecified" value="未指定主键"/>
-	<phrase id="PrinterFriendly" value="打印机友好页面" class="icon-print ewIcon"/><!-- v8 -->
+	<phrase id="PrinterFriendly" value="打印机友好页面" class="icon-print ew-icon"/><!-- v8 -->
+	<phrase id="PrivacyPolicy" value="隐私权保护政策"/><!-- v12 -->
+	<phrase id="PrivacyPolicyContent" value="在本页面设置“隐私权保护政策”"/><!-- v12 -->
 	<phrase id="Group" value="Groups"/><!-- todo -->
 	<phrase id="GroupsPerPage" value="Groups per page"/><!-- todo -->
 	<phrase id="Qtr1" value="第一季度"/>
@@ -186,7 +202,7 @@
 	<phrase id="ReportFormUrl" value="URL"/><!-- v10 -->
 	<phrase id="ReportGeneratedDate" value="报告生成日期："/><!-- v10 -->
 	<phrase id="Reset" value="重置"/>
-	<phrase id="ResetAllFilter" value="重置所有筛选条件" class="icon-reset-search ewIcon"/><!-- v8 -->
+	<phrase id="ResetAllFilter" value="重置所有筛选条件" class="icon-reset-search ew-icon"/><!-- v8 -->
 	<phrase id="ResetSearch" value="重置"/>
 	<phrase id="RptAvg" value="平均"/>
 	<phrase id="RptCnt" value="COUNT"/>
@@ -200,7 +216,7 @@
 	<phrase id="SaveCurrentFilter" value="保存当前筛选条件"/>
 	<phrase id="SaveUserName" value="记住用户名"/><!-- Deprecated since v11 -->
 	<phrase id="Search" value="搜索" client="1"/><!-- v10 -->
-	<phrase id="SearchBtn" value="筛选条件面板" class="glyphicon glyphicon-search ewIcon"/>
+	<phrase id="SearchBtn" value="筛选条件面板" class="fa fa-search ew-icon"/><!-- v12 -->
 	<phrase id="SelectAll" value="(All)"/>
 	<phrase id="SelectBtn" value="选择" client="1"/><!-- v10 -->
 	<phrase id="SendEmailBtn" value="发送" client="1"/>
